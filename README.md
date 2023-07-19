@@ -11,7 +11,7 @@ VideoMergePlus is a powerful Python tool for effortless video processing. It all
 0. We recommend using conda and installing it via pip install conda then running conda create --name videomergeplus and then typing conda activate videomergeplus
 1. Install the required libraries using pip install -r requirements.txt.
 2. Put GIFs in a folder you make called gif, also make these folders too: done, output
-3. Run the Python script using python video_merge_plus.py.
+3. Run the Python script using python app.py.
 4. Ensure 'call.mp4' is present in the working directory to be added at the end of each video during concatenation.
 5. Explore the possibilities and streamline your video editing with VideoMergePlus!
 

@@ -22,11 +22,13 @@ VideoMergePlus is a powerful Python tool for effortless video processing. It all
    video_processor.convert_gif_to_mp4()
 
 ## Concatenate GIF & Video Clips
-You can change the resoltuion of the GIFs to your end video resolution. Check your files info for correct sizes to avoid the first clip being a different size than  the second,
+You can change the resoltuion of the GIFs to your end video resolution. Check your files info for correct sizes to avoid the first clip being a different size than  the second. Everything else is automatic. 
 
 ```
-                ffmpeg_cmd = f"ffmpeg -i {input_file} -vf \"scale=1280:720\" -y {output_file}"
+ffmpeg_cmd = f"ffmpeg -i {input_file} -vf \"scale=1280:720\" -y {output_file}"
 ```
+
+You can read more about all the supported codec here https://ffmpeg.org/ffmpeg-codecs.html
 
 ## File tree example
 1. 📦admaker

@@ -3,6 +3,10 @@
 # Support
 https://twitter.com/krecicki
 
+# Use Case
+
+Test hooks on videos by adding clips to the beginning of your main video in bulk quickly.
+
 # VideoMergePlus v1
 VideoMergePlus is a powerful Python tool for effortless video processing. It allows you to convert GIFs to MP4s and concatenate video clips, enabling you to quickly create batches of advertisements or engaging social media content.
 

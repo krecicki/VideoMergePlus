@@ -6,7 +6,7 @@ VideoMergePlus is a powerful Python tool for effortless video processing. It all
 ## Get creative with bulk video merging and advertisement creation using MoviePy.
 ### Clone the repository.
 1. Install the required libraries using pip install -r requirements.txt.
-2. Put GIFs in the gif folder
+2. Put GIFs in a folder you make called gif, also make these folders too: done, output
 3. Run the Python script using python video_merge_plus.py.
 4. Ensure 'call.mp4' is present in the working directory to be added at the end of each video during concatenation.
 5. Explore the possibilities and streamline your video editing with VideoMergePlus!
@@ -22,12 +22,20 @@ VideoMergePlus is a powerful Python tool for effortless video processing. It all
    video_processor.convert_gif_to_mp4()
 
 ## Concatenate GIF & Video Clips
+You can change the resoltuion of the GIFs to your end video resolution. Check your files info for correct sizes to avoid the first clip being a different size than  the second,
 
 ```
-video_files_in_output = [os.path.join('./output', f) for f in os.listdir('./output') if f.endswith('.mp4')]
+                ffmpeg_cmd = f"ffmpeg -i {input_file} -vf \"scale=1280:720\" -y {output_file}"
 ```
 
-```
-done_folder = './done'
-video_processor.concatenate_clips(video_files_in_output, method='compose')
-```
+## File tree example
+1. 📦admaker
+2. ┣ 📂done
+3.   ┣ 📂gif
+4.   ┣ 📂output
+5.   ┃ ┗ 📜.DS_Store
+6. ┣ 📜.DS_Store
+7. ┣ 📜app.py
+8. ┣ 📜call.mp4
+9. ┗ 📜requirements.txt
+

@@ -1,3 +1,8 @@
+![alt text](https://github.com/krecicki/VideoMergePlus/blob/main/New%20Project-3.png?raw=true)
+
+# Support
+https://twitter.com/krecicki
+
 # VideoMergePlus v1
 VideoMergePlus is a powerful Python tool for effortless video processing. It allows you to convert GIFs to MP4s and concatenate video clips, enabling you to quickly create batches of advertisements or engaging social media content.
 

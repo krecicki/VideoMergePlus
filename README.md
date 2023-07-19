@@ -1,10 +1,9 @@
 # VideoMergePlus v1
-VideoMergePlus: Convert GIFs to MP4s, concatenate clips, and create bulk ads automatically or content for social media.
-
 VideoMergePlus is a powerful Python tool for effortless video processing. It allows you to convert GIFs to MP4s and concatenate video clips, enabling you to quickly create batches of advertisements or engaging social media content.
 
 ## Get creative with bulk video merging and advertisement creation using MoviePy.
 ### Clone the repository.
+0. We recommend using conda and installing it via pip install conda then running conda create --name videomergeplus and then typing conda activate videomergeplus
 1. Install the required libraries using pip install -r requirements.txt.
 2. Put GIFs in a folder you make called gif, also make these folders too: done, output
 3. Run the Python script using python video_merge_plus.py.
